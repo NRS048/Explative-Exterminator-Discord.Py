@@ -1,4 +1,6 @@
 # MACRO-Explative-Exterminator
 A Python-Based Discord Bot that will rewove, filter, and re-send their message without any swear words.
 
-This Bot is still a Work-In-Progress, there may be bugs and any version downloaded is not guranteed to work.
+To use this bot, enter the Leaderboard folder, and ensure you have a (V2.py, leaderboard.json, .env) they should all be in the same directory
+
+Make sure you have discord.py installed, ensure you have entered your token into the .env file, and run the vL2.py
