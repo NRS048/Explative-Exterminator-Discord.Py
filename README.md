@@ -4,3 +4,5 @@ A Python-Based Discord Bot that will rewove, filter, and re-send their message w
 To use this bot, enter the Leaderboard folder, and ensure you have a (V2.py, leaderboard.json, .env) they should all be in the same directory
 
 Make sure you have discord.py installed, ensure you have entered your token into the .env file, and run the vL2.py
+
+This Version has a leaderboard custom made for MACRO, where it is located in one channel and there is no command
