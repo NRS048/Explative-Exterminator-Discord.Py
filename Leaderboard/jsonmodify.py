@@ -1,3 +1,5 @@
+#not used in the amin system of the bot, just for adding  users or swears, mostly just a development proof-of-concept
+
 import json
 
 id = input("what is the id?\n")
