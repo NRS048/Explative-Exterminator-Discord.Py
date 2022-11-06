@@ -21,7 +21,9 @@ blackList = ["4r5e", "5h1t", "5hit", "a55", "anal", "anus", "ar5e", "arrse", "ar
 #empty list for swear words
 swear_location = []
 
-client = discord.Client()
+intents = discord.Intents.all()
+
+client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
@@ -71,7 +73,7 @@ async def on_message(message):
             await message.channel.send("copy this message's id, and the channel's id, and enter into .env file")
 
     #split message into parts of a list, removing spaces 
-    x = re.split("\s", message.content.lower())
+    x = re.split("\s|!|\.|,|\?", message.content.lower())
 
     #declare var for swears found in message - leaderboard
     swears = 0
