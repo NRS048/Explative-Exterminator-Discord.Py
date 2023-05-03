@@ -4,19 +4,17 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 import json
+from datetime import datetime
 
+startTime = datetime.now()
 
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
 #TOKEN(login), ADMINEXEMPT(can admins swear), CHANNELID(where is the leaderboard), MSGID(what message is the leaderbaord)
 TOKEN = os.environ.get("TOKEN")
-adminExempt = os.environ.get("ADMINEXEMPT")
-channelId = os.environ.get("CHANNELID")
-msgId = os.environ.get("MSGID")
 
-#list of swear words
-blackList = ["4r5e", "5h1t", "5hit", "a55", "anal", "anus", "ar5e", "arrse", "arse", "ass", "asshat", "badass", "ass-fucker", "asses", "assfucker", "assfukka", "asshole", "assholes", "asswhole", "a_s_s", "b!tch", "b00bs", "b17ch", "b1tch", "ballbag", "balls", "ballsack", "bastard", "beastial", "beastiality", "bellend", "bestial", "bestiality", "bi+ch", "biatch", "bitch", "bitcher", "bitchers", "bitches", "bitchin", "bitching", "bloody", "blow job", "blowjob", "blowjobs", "bollock", "bollok", "boner", "boob", "boobs", "booobs", "boooobs", "booooobs", "booooooobs", "bunny fucker", "butt", "butthole", "buttmuch", "buttplug", "c0ck", "c0cksucker", "clitoris", "clits", "cock", "cock-sucker", "cockface", "cockhead", "cockmunch", "cockmuncher", "cocks", "cocksuck", "cocksucked", "cocksucker", "cocksucking", "cocksucks", "cocksuka", "cocksukka", "cokmuncher", "coksucka", "cum", "cummer", "cumming", "cums", "cumshot", "cunilingus", "cunillingus", "cunnilingus", "cunt", "cuntlick", "cuntlicker", "cuntlicking", "cunts", "cyalis", "cyberfuc", "cyberfuck", "cyberfucked", "cyberfucker", "cyberfuckers", "cyberfucking", "d1ck", "dick", "dickhead", "dildo", "dildos", "dink", "dinks", "dirsa", "dlck", "dog-fucker", "doggin", "dogging", "donkeyribber", "doosh", "duche", "dyke", "ejaculate", "ejaculated", "ejaculates", "ejaculating", "ejaculatings", "ejaculation", "ejakulate", "f u c k", "f u c k e r", "f4nny", "fag", "fagging", "faggitt", "faggot", "faggs", "fagot", "fagots", "fags", "fanny", "fannyflaps", "fannyfucker", "fanyy", "fatass", "fcuk", "fcuker", "fcuking", "feck", "fecker", "felching", "fellate", "fellatio", "fingerfuck", "fingerfucked", "fingerfucker", "fingerfuckers", "fingerfucking", "fingerfucks", "fistfuck", "fistfucked", "fistfucker", "fistfuckers", "fistfucking", "fistfuckings", "fistfucks", "flange", "fook", "fooker", "fuck", "fucka", "fucked", "fucker", "fuckers", "fuckhead", "fuckheads", "fuckin", "fucking", "fuckings", "fuckingshitmotherfucker", "fuckme", "fucks", "fuckwhit", "fuckwit", "fudge packer", "fudgepacker", "fuk", "fuker", "fukker", "fukkin", "fuks", "fukwhit", "fukwit", "fux", "fux0r", "f_u_c_k", "gangbang", "gangbanged", "gangbangs", "gaylord", "gaysex", "goatse", "hardcoresex", "heshe", "hoar", "hoare", "hoer", "homo", "hore", "horniest", "horny", "hotsex", "jack-off", "jackoff", "jap", "jerk-off", "jism", "jiz", "jizm", "jizz", "kawk", "knob", "knobead", "knobed", "knobend", "knobhead", "knobjocky", "knobjokey", "kock", "kondum", "kondums", "kum", "kummer", "kumming", "kums", "kunilingus", "l3i+ch", "l3itch", "labia", "lust", "lusting", "m0f0", "m0fo", "m45terbate", "ma5terb8", "ma5terbate", "masochist", "master-bate", "masterb8", "masterbat*", "masterbat3", "masterbate", "masterbation", "masterbations", "masturbate", "mo-fo", "mof0", "mofo", "mothafuck", "mothafucka", "mothafuckas", "mothafuckaz", "mothafucked", "mothafucker", "mothafuckers", "mothafuckin", "mothafucking", "mothafuckings", "mothafucks", "mother fucker", "motherfuck", "motherfucked", "motherfucker", "motherfuckers", "motherfuckin", "motherfucking", "motherfuckings", "motherfuckka", "motherfucks", "muff", "mutha", "muthafecker", "muthafuckker", "muther", "mutherfucker", "n1gga", "n1gger", "nazi", "nigg3r", "nigg4h", "nigga", "niggah", "niggas", "niggaz", "nigger", "niggers", "nob", "nob jokey", "nobhead", "nobjocky", "nobjokey", "numbnuts", "nutsack", "orgasim", "orgasims", "orgasm", "orgasms", "p0rn", "pawn", "pecker", "penis", "penisfucker", "phonesex", "phuck", "phuk", "phuked", "phuking", "phukked", "phukking", "phuks", "phuq", "pigfucker", "pimpis", "piss", "pissed", "pisser", "pissers", "pisses", "pissflaps", "pissin", "pissing", "pissoff", "poop", "porn", "porno", "pornography", "pornos", "prick", "pricks", "pron", "pube", "pusse", "pussi", "pussies", "pussy", "pussys", "rectum", "retard", "rimjaw", "rimming", "sex", "sh!+", "sh!t", "sh1t", "shag", "shagger", "shaggin", "shagging", "shemale", "shi+", "shit", "shitdick", "shite", "shited", "shitey", "shitfuck", "shitfull", "shithead", "shiting", "shitings", "shits", "shitted", "shitter", "shitters", "shitting", "shittings", "shitty", "skank", "slut", "sluts", "smegma", "smut", "snatch", "son-of-a-bitch", "spac", "spunk", "s_h_i_t", "t1tt1e5", "t1tties", "teets", "teez", "testical", "testicle", "tit", "titfuck", "tits", "titt", "tittie5", "tittiefucker", "titties", "tittyfuck", "tittywank", "titwank", "tosser", "turd", "tw4t", "twat", "twathead", "twatty", "twunt", "twunter", "v14gra", "v1gra", "vagina", "viagra", "vulva", "w00se", "wang", "wank", "wanker", "wanky", "whoar", "whore", "xrated", "Arschgeige", "Trantüte", "Spargeltarzan", "Lustmolch", "Flachwichser", "Pissnelke", "Fickfehler", "Tratschtante", "Stinkstiefel", "Hosenscheisser", "Schlappschwanz", "Hackfresse", "Allmannshure", "Andächtler", "Arschgucker", "Arschkröte", "Arschloch", "Bartputzer", "Dickscheißer", "Donnermaul", "Scheiss", "Scheisse", "Fick", "F1ck", "fick", "f-i-c-k", "Fickdich", "Fickdick", "Huren", "Hurensohn", "Sclampe", "Schlampen", "Schlampenficker", "Misgeburt", "Missgeburt", "Wichser", "Wicser", "Wixer", ]
+jsonPath = "/home/pi/E-E-D/Leaderboard/leaderboard.json"
 
 #empty list for swear words
 swear_location = []
@@ -24,6 +22,8 @@ swear_location = []
 intents = discord.Intents.all()
 
 client = discord.Client(intents=intents)
+
+adminId = 0 #Bot Admin Id
 
 @client.event
 async def on_ready():
@@ -36,7 +36,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    with open("leaderboard.json",'r') as file:
+    with open(jsonPath,'r') as file:
         dataread = json.load(file)
     
         dataread["leaderboard"].sort(key=lambda x: x["swear_count"], reverse=True)
@@ -60,20 +60,160 @@ async def on_message(message):
         embedvar.add_field(name=num4, value="<@"+str(id4)+">")
         embedvar.add_field(name=num5, value="<@"+str(id5)+">")
         embedvar.set_footer(text="you all swear too often")
+        
+        #list of swear words
+        blackList = dataread['Data'][0]['blackList']
+        adminExempt = dataread['RunData'][0]['ADMINEXEMPT']
+
         file.close()
+
+    if message.content.startswith('$dump'):
+        if message.channel.type == discord.ChannelType.private:
+            if message.author.id == adminId:
+                await message.channel.send("uptime:")
+                await message.channel.send(datetime.now() - startTime)
+                await message.channel.send(file=discord.File(jsonPath))
+                return
+
+    if message.content.startswith('$reboot'):
+        if message.channel.type == discord.ChannelType.private:
+            if message.author.id == adminId:
+                os.system('sudo reboot')
+
+    if message.content.startswith("$commands"):
+        await message.channel.send("Server Commands:\n$leaderboard_here\n$addword\n$removeword\n$startfilter\n$stopfilter\n$status",)
+        if message.channel.type == discord.ChannelType.private:
+            if message.author.id == adminId:
+                await message.channel.send('DM commands (just for you -love past Nathan)\n$dump\n$reboot')
+
+    if message.channel.type == discord.ChannelType.private:
+        await message.channel.send("this bot only works in servers")
+        return
+
+    if message.content == "$leaderboard_here":
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            with open(jsonPath,'r+') as file:
+                data = json.load(file)
+                data['RunData'][0]['CHANNELID'] = message.channel.id
+
+                messageReply = await message.channel.send(embed=embedvar)
+                data['RunData'][0]['MSGID'] = messageReply.id
+
+                file.seek(0)
+                json.dump(data, file, indent = 4)
+                file.truncate()
+                file.close()
+
+    if message.content.startswith("$addword"):
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            m = re.split("\s", message.content.lower())
+            with open(jsonPath,'r+') as file:
+                data = json.load(file)
+                Bl = data['Data'][0]['blackList']
+                if m[1] in Bl:
+                    await message.channel.send("that word already exists in your filter database", delete_after=5.0)
+                    file.close()
+                    return
+                else:
+                    pass
+                Bl.append(m[1])
+                file.seek(0)
+                json.dump(data, file, indent = 4)
+                file.truncate()
+                file.close()
+                await message.channel.send('adding word', delete_after=5.0)
+                await message.channel.send(m[1], delete_after=5.0)
+                return
+    
+    if message.content.startswith("$removeword"):
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            n = re.split("\s", message.content.lower())
+            with open(jsonPath,'r+') as file:
+                data = json.load(file)
+                Bl = data['Data'][0]['blackList']
+                if n[1] in Bl:
+                    pass
+                else:
+                    await message.channel.send("that word is not in your filter database", delete_after=5.0)
+                    file.close()
+                    return
+                del Bl[Bl.index(n[1])]
+                await message.channel.send("deleting word", delete_after=5.0)
+                await message.channel.send(n[1], delete_after=5.0)
+                file.seek(0)
+                json.dump(data, file, indent = 4)
+                file.truncate()
+                file.close()
+                return
+            
+    if message.content.startswith("$stopfilter"):
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            with open(jsonPath,'r+') as file:
+                data = json.load(file)
+                filterlist = data['RunData'][0]['nonfilterchannels']
+                if message.channel.id in filterlist:
+                    await message.channel.send('this channel is already not being filtered', delete_after=5.0)
+                    file.close()
+                    return
+                else:
+                    filterlist.append(message.channel.id)
+                    await message.channel.send('stopping filtering', delete_after=5.0)
+                    file.seek(0)
+                    json.dump(data, file, indent = 4)
+                    file.truncate()
+                    file.close()
+                    return
+
+    if message.content.startswith("$startfilter"):
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            with open(jsonPath,'r+') as file:
+                data = json.load(file)
+                filterlist = data['RunData'][0]['nonfilterchannels']
+                if message.channel.id not in filterlist:
+                    await message.channel.send('this channel is already being filtered', delete_after=5.0)
+                    return
+                del filterlist[filterlist.index(message.channel.id)]
+                await message.channel.send("starting filtering", delete_after=5.0)
+                file.seek(0)
+                json.dump(data, file, indent = 4)
+                file.truncate()
+                file.close()
+                return
+
+    if message.content.startswith("$status"):
+        if message.author.guild_permissions.administrator:
+            await message.delete()
+            with open(jsonPath,'r') as file:
+                data = json.load(file)
+                if message.channel.id in data['RunData'][0]['nonfilterchannels']:
+                    await message.channel.send('this channel is not being filtered', delete_after=5.0)
+                else:
+                    await message.channel.send('this channel is being filtered', delete_after=5.0)
+                file.close()
+                return
+
+    if message.content.startswith("$commands"):
+        if message.author.guild_permissions.administrator:
+            await message.channel.send("Commands:\n$leaderboard_here\n$addword\n$removeword\n$startfilter\n$stopfilter\n$status", delete_after=10.0)
+            if message.channel.type == discord.ChannelType.private:
+                if message.author.id == adminId:
+                    await message.channel.send('DM commands (just for you, bot admin)\n$dump\n$reboot')
+
+    if message.channel.id in dataread['RunData'][0]['nonfilterchannels']:
+            return
 
     #end if user is admin
     if adminExempt == "TRUE":
         if message.author.guild_permissions.administrator:
             return
 
-    if message.content == "$leaderboard_here":
-        if message.author.guild_permissions.administrator:
-            await message.delete()
-            await message.channel.send("copy this message's id, and the channel's id, and enter into .env file")
-
     #split message into parts of a list, removing spaces 
-    x = re.split("\s|!|\.|,|\?", message.content.lower())
+    x = re.split("\s|!|\.|,|\?|\*", message.content.lower())
 
     #declare var for swears found in message - leaderboard
     swears = 0
@@ -100,7 +240,7 @@ async def on_message(message):
         #create embed with users profile pic, name, and the filtered message
         embed2=discord.Embed(title="Filtered Message", description="Author: <@"+str(message.author.id)+">", color=0x00FFAE)
         embed2.add_field(name="Message:", value=(" ".join(x)))
-        embed2.set_thumbnail(url=message.author.avatar_url)
+        embed2.set_thumbnail(url=message.author.avatar)
         embed2.set_footer(text="you all swear too much")
 
         #system to re-send any attachments that were on the message
@@ -119,7 +259,7 @@ async def on_message(message):
         json_location = 0
 
         #open json leaderboard
-        with open("leaderboard.json",'r+') as file:
+        with open(jsonPath,'r+') as file:
             data = json.load(file)
             #search for pre-existing Id
             for i in data["leaderboard"]:
@@ -142,6 +282,7 @@ async def on_message(message):
                     file.seek(0)
                     json.dump(data, file, indent=4)
                     file.truncate()
+                    file.close()
                     break
 
             else:
@@ -162,14 +303,16 @@ async def on_message(message):
                 file.close()
 
         #system for leaderboard updating after every swear
+        with open(jsonPath,'r+') as file:
+            data = json.load(file)
+            
+            channelLB = client.get_channel(dataread['RunData'][0]['CHANNELID'])
+            msgidLB = int(dataread['RunData'][0]['MSGID'])
+            #edit leaderboard message
+            msg = await channelLB.fetch_message(msgidLB)
+            await msg.edit(content=None, embed=embedvar)
+            file.close()
 
-        #identify what channel the leaderbaord is in
-        status_channel = client.get_channel(int(channelId))
-        #print(status_channel)
-        #identify the content of the message
-        msg = await status_channel.fetch_message(int(msgId))
-        #edit message
-        await msg.edit(content= None, embed=embedvar)
     else:
         #return if no swears
         return
