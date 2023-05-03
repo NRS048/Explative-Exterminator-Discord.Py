@@ -14,7 +14,7 @@ load_dotenv(dotenv_path)
 #TOKEN(login), ADMINEXEMPT(can admins swear), CHANNELID(where is the leaderboard), MSGID(what message is the leaderbaord)
 TOKEN = os.environ.get("TOKEN")
 
-jsonPath = "/home/pi/E-E-D/Leaderboard/leaderboard.json"
+jsonPath = " "
 
 #empty list for swear words
 swear_location = []
