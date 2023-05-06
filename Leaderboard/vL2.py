@@ -84,7 +84,7 @@ async def on_message(message):
         await message.channel.send("Server Commands:\n$leaderboard_here\n$addword\n$removeword\n$startfilter\n$stopfilter\n$status",)
         if message.channel.type == discord.ChannelType.private:
             if message.author.id == adminId:
-                await message.channel.send('DM commands (just for you -love past Nathan)\n$dump\n$reboot')
+                await message.channel.send('DM commands (just for you)\n$dump\n$reboot')
 
     if message.channel.type == discord.ChannelType.private:
         await message.channel.send("this bot only works in servers")
