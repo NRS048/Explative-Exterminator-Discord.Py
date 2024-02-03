@@ -1,0 +1,1912 @@
+{
+    "Data": [
+        {
+            "blacklist": [
+                {
+                    "word": "shit",
+                    "cen": "poop"
+                },
+                {
+                    "word": "fuck",
+                    "cen": "firetruck"
+                },
+                {
+                    "word": "anal",
+                    "cen": "----"
+                },
+                {
+                    "word": "anus",
+                    "cen": "----"
+                },
+                {
+                    "word": "arse",
+                    "cen": "----"
+                },
+                {
+                    "word": "ass",
+                    "cen": "---"
+                },
+                {
+                    "word": "asshat",
+                    "cen": "------"
+                },
+                {
+                    "word": "badass",
+                    "cen": "------"
+                },
+                {
+                    "word": "ass-fucker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "asses",
+                    "cen": "-----"
+                },
+                {
+                    "word": "assfucker",
+                    "cen": "---------"
+                },
+                {
+                    "word": "assfukka",
+                    "cen": "--------"
+                },
+                {
+                    "word": "asshole",
+                    "cen": "-------"
+                },
+                {
+                    "word": "assholes",
+                    "cen": "--------"
+                },
+                {
+                    "word": "asswhole",
+                    "cen": "--------"
+                },
+                {
+                    "word": "b!tch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "b17ch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "b1tch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "ballbag",
+                    "cen": "-------"
+                },
+                {
+                    "word": "ballsack",
+                    "cen": "--------"
+                },
+                {
+                    "word": "beastial",
+                    "cen": "--------"
+                },
+                {
+                    "word": "beastiality",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "bellend",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bestial",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bestiality",
+                    "cen": "----------"
+                },
+                {
+                    "word": "bi+ch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "biatch",
+                    "cen": "------"
+                },
+                {
+                    "word": "bitch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "bitcher",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bitchers",
+                    "cen": "--------"
+                },
+                {
+                    "word": "bitches",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bitchin",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bitching",
+                    "cen": "--------"
+                },
+                {
+                    "word": "blow job",
+                    "cen": "--------"
+                },
+                {
+                    "word": "blowjob",
+                    "cen": "-------"
+                },
+                {
+                    "word": "blowjobs",
+                    "cen": "--------"
+                },
+                {
+                    "word": "bollock",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bollok",
+                    "cen": "------"
+                },
+                {
+                    "word": "boner",
+                    "cen": "-----"
+                },
+                {
+                    "word": "boob",
+                    "cen": "----"
+                },
+                {
+                    "word": "boobs",
+                    "cen": "-----"
+                },
+                {
+                    "word": "booobs",
+                    "cen": "------"
+                },
+                {
+                    "word": "boooobs",
+                    "cen": "-------"
+                },
+                {
+                    "word": "booooobs",
+                    "cen": "--------"
+                },
+                {
+                    "word": "booooooobs",
+                    "cen": "----------"
+                },
+                {
+                    "word": "bunny fucker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "butthole",
+                    "cen": "--------"
+                },
+                {
+                    "word": "buttmuch",
+                    "cen": "--------"
+                },
+                {
+                    "word": "buttplug",
+                    "cen": "--------"
+                },
+                {
+                    "word": "c0ck",
+                    "cen": "----"
+                },
+                {
+                    "word": "c0cksucker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "clitoris",
+                    "cen": "--------"
+                },
+                {
+                    "word": "clits",
+                    "cen": "-----"
+                },
+                {
+                    "word": "cock",
+                    "cen": "----"
+                },
+                {
+                    "word": "cock-sucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cockface",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cockhead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cockmunch",
+                    "cen": "---------"
+                },
+                {
+                    "word": "cockmuncher",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cocks",
+                    "cen": "-----"
+                },
+                {
+                    "word": "cocksuck",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cocksucked",
+                    "cen": "----------"
+                },
+                {
+                    "word": "cocksucker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "cocksucking",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cocksucks",
+                    "cen": "---------"
+                },
+                {
+                    "word": "cocksuka",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cocksukka",
+                    "cen": "---------"
+                },
+                {
+                    "word": "cokmuncher",
+                    "cen": "----------"
+                },
+                {
+                    "word": "coksucka",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cum",
+                    "cen": "---"
+                },
+                {
+                    "word": "cummer",
+                    "cen": "------"
+                },
+                {
+                    "word": "cumming",
+                    "cen": "-------"
+                },
+                {
+                    "word": "cums",
+                    "cen": "----"
+                },
+                {
+                    "word": "cumshot",
+                    "cen": "-------"
+                },
+                {
+                    "word": "cunilingus",
+                    "cen": "----------"
+                },
+                {
+                    "word": "cunillingus",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cunnilingus",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cunt",
+                    "cen": "----"
+                },
+                {
+                    "word": "cuntlick",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cuntlicker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "cuntlicking",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cunts",
+                    "cen": "-----"
+                },
+                {
+                    "word": "cyalis",
+                    "cen": "------"
+                },
+                {
+                    "word": "cyberfuc",
+                    "cen": "--------"
+                },
+                {
+                    "word": "cyberfuck",
+                    "cen": "---------"
+                },
+                {
+                    "word": "cyberfucked",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cyberfucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "cyberfuckers",
+                    "cen": "------------"
+                },
+                {
+                    "word": "cyberfucking",
+                    "cen": "------------"
+                },
+                {
+                    "word": "d1ck",
+                    "cen": "----"
+                },
+                {
+                    "word": "dickhead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "dildo",
+                    "cen": "-----"
+                },
+                {
+                    "word": "dildos",
+                    "cen": "------"
+                },
+                {
+                    "word": "dink",
+                    "cen": "----"
+                },
+                {
+                    "word": "dinks",
+                    "cen": "-----"
+                },
+                {
+                    "word": "dirsa",
+                    "cen": "-----"
+                },
+                {
+                    "word": "dlck",
+                    "cen": "----"
+                },
+                {
+                    "word": "dog-fucker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "doggin",
+                    "cen": "------"
+                },
+                {
+                    "word": "dogging",
+                    "cen": "-------"
+                },
+                {
+                    "word": "donkeyribber",
+                    "cen": "------------"
+                },
+                {
+                    "word": "doosh",
+                    "cen": "-----"
+                },
+                {
+                    "word": "duche",
+                    "cen": "-----"
+                },
+                {
+                    "word": "dyke",
+                    "cen": "----"
+                },
+                {
+                    "word": "ejaculate",
+                    "cen": "---------"
+                },
+                {
+                    "word": "ejaculated",
+                    "cen": "----------"
+                },
+                {
+                    "word": "ejaculates",
+                    "cen": "----------"
+                },
+                {
+                    "word": "ejaculating",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "ejaculatings",
+                    "cen": "------------"
+                },
+                {
+                    "word": "ejaculation",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "ejakulate",
+                    "cen": "---------"
+                },
+                {
+                    "word": "f u c k",
+                    "cen": "-------"
+                },
+                {
+                    "word": "f u c k e r",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "f4nny",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fag",
+                    "cen": "---"
+                },
+                {
+                    "word": "fagging",
+                    "cen": "-------"
+                },
+                {
+                    "word": "faggitt",
+                    "cen": "-------"
+                },
+                {
+                    "word": "faggot",
+                    "cen": "------"
+                },
+                {
+                    "word": "faggs",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fagot",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fagots",
+                    "cen": "------"
+                },
+                {
+                    "word": "fags",
+                    "cen": "----"
+                },
+                {
+                    "word": "fanny",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fannyflaps",
+                    "cen": "----------"
+                },
+                {
+                    "word": "fannyfucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "fanyy",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fatass",
+                    "cen": "------"
+                },
+                {
+                    "word": "fcuk",
+                    "cen": "----"
+                },
+                {
+                    "word": "fcuker",
+                    "cen": "------"
+                },
+                {
+                    "word": "fcuking",
+                    "cen": "-------"
+                },
+                {
+                    "word": "feck",
+                    "cen": "----"
+                },
+                {
+                    "word": "fecker",
+                    "cen": "------"
+                },
+                {
+                    "word": "felching",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fellate",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fellatio",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fingerfuck",
+                    "cen": "----------"
+                },
+                {
+                    "word": "fingerfucked",
+                    "cen": "------------"
+                },
+                {
+                    "word": "fingerfucker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "fingerfuckers",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "fingerfucking",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "fingerfucks",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "fistfuck",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fistfucked",
+                    "cen": "----------"
+                },
+                {
+                    "word": "fistfucker",
+                    "cen": "----------"
+                },
+                {
+                    "word": "fistfuckers",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "fistfucking",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "fistfuckings",
+                    "cen": "------------"
+                },
+                {
+                    "word": "fistfucks",
+                    "cen": "---------"
+                },
+                {
+                    "word": "fook",
+                    "cen": "----"
+                },
+                {
+                    "word": "fooker",
+                    "cen": "------"
+                },
+                {
+                    "word": "fucka",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fucked",
+                    "cen": "------"
+                },
+                {
+                    "word": "fucker",
+                    "cen": "------"
+                },
+                {
+                    "word": "fuckers",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fuckhead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fuckheads",
+                    "cen": "---------"
+                },
+                {
+                    "word": "fuckin",
+                    "cen": "------"
+                },
+                {
+                    "word": "fucking",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fuckings",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fuckingshitmotherfucker",
+                    "cen": "-----------------------"
+                },
+                {
+                    "word": "fuckme",
+                    "cen": "------"
+                },
+                {
+                    "word": "fucks",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fuckwhit",
+                    "cen": "--------"
+                },
+                {
+                    "word": "fuckwit",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fudge packer",
+                    "cen": "------------"
+                },
+                {
+                    "word": "fudgepacker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "fuk",
+                    "cen": "---"
+                },
+                {
+                    "word": "fuker",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fukker",
+                    "cen": "------"
+                },
+                {
+                    "word": "fukkin",
+                    "cen": "------"
+                },
+                {
+                    "word": "fuks",
+                    "cen": "----"
+                },
+                {
+                    "word": "fukwhit",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fukwit",
+                    "cen": "------"
+                },
+                {
+                    "word": "fux",
+                    "cen": "---"
+                },
+                {
+                    "word": "fux0r",
+                    "cen": "-----"
+                },
+                {
+                    "word": "f_u_c_k",
+                    "cen": "-------"
+                },
+                {
+                    "word": "gangbang",
+                    "cen": "--------"
+                },
+                {
+                    "word": "gangbanged",
+                    "cen": "----------"
+                },
+                {
+                    "word": "gangbangs",
+                    "cen": "---------"
+                },
+                {
+                    "word": "gaylord",
+                    "cen": "-------"
+                },
+                {
+                    "word": "gaysex",
+                    "cen": "------"
+                },
+                {
+                    "word": "goatse",
+                    "cen": "------"
+                },
+                {
+                    "word": "hardcoresex",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "heshe",
+                    "cen": "-----"
+                },
+                {
+                    "word": "hoar",
+                    "cen": "----"
+                },
+                {
+                    "word": "hoare",
+                    "cen": "-----"
+                },
+                {
+                    "word": "hoer",
+                    "cen": "----"
+                },
+                {
+                    "word": "homo",
+                    "cen": "----"
+                },
+                {
+                    "word": "hore",
+                    "cen": "----"
+                },
+                {
+                    "word": "horniest",
+                    "cen": "--------"
+                },
+                {
+                    "word": "horny",
+                    "cen": "-----"
+                },
+                {
+                    "word": "hotsex",
+                    "cen": "------"
+                },
+                {
+                    "word": "jack-off",
+                    "cen": "--------"
+                },
+                {
+                    "word": "jackoff",
+                    "cen": "-------"
+                },
+                {
+                    "word": "jap",
+                    "cen": "---"
+                },
+                {
+                    "word": "jerk-off",
+                    "cen": "--------"
+                },
+                {
+                    "word": "jism",
+                    "cen": "----"
+                },
+                {
+                    "word": "jiz",
+                    "cen": "---"
+                },
+                {
+                    "word": "jizm",
+                    "cen": "----"
+                },
+                {
+                    "word": "jizz",
+                    "cen": "----"
+                },
+                {
+                    "word": "kawk",
+                    "cen": "----"
+                },
+                {
+                    "word": "knobead",
+                    "cen": "-------"
+                },
+                {
+                    "word": "knobed",
+                    "cen": "------"
+                },
+                {
+                    "word": "knobend",
+                    "cen": "-------"
+                },
+                {
+                    "word": "knobhead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "knobjocky",
+                    "cen": "---------"
+                },
+                {
+                    "word": "knobjokey",
+                    "cen": "---------"
+                },
+                {
+                    "word": "kock",
+                    "cen": "----"
+                },
+                {
+                    "word": "kondum",
+                    "cen": "------"
+                },
+                {
+                    "word": "kondums",
+                    "cen": "-------"
+                },
+                {
+                    "word": "kum",
+                    "cen": "---"
+                },
+                {
+                    "word": "kummer",
+                    "cen": "------"
+                },
+                {
+                    "word": "kumming",
+                    "cen": "-------"
+                },
+                {
+                    "word": "kums",
+                    "cen": "----"
+                },
+                {
+                    "word": "kunilingus",
+                    "cen": "----------"
+                },
+                {
+                    "word": "l3i+ch",
+                    "cen": "------"
+                },
+                {
+                    "word": "l3itch",
+                    "cen": "------"
+                },
+                {
+                    "word": "labia",
+                    "cen": "-----"
+                },
+                {
+                    "word": "lust",
+                    "cen": "----"
+                },
+                {
+                    "word": "lusting",
+                    "cen": "-------"
+                },
+                {
+                    "word": "m0f0",
+                    "cen": "----"
+                },
+                {
+                    "word": "m0fo",
+                    "cen": "----"
+                },
+                {
+                    "word": "m45terbate",
+                    "cen": "----------"
+                },
+                {
+                    "word": "ma5terb8",
+                    "cen": "--------"
+                },
+                {
+                    "word": "ma5terbate",
+                    "cen": "----------"
+                },
+                {
+                    "word": "master-bate",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "masterb8",
+                    "cen": "--------"
+                },
+                {
+                    "word": "masterbat*",
+                    "cen": "----------"
+                },
+                {
+                    "word": "masterbat3",
+                    "cen": "----------"
+                },
+                {
+                    "word": "masterbate",
+                    "cen": "----------"
+                },
+                {
+                    "word": "masterbation",
+                    "cen": "------------"
+                },
+                {
+                    "word": "masterbations",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "masturbate",
+                    "cen": "----------"
+                },
+                {
+                    "word": "mo-fo",
+                    "cen": "-----"
+                },
+                {
+                    "word": "mof0",
+                    "cen": "----"
+                },
+                {
+                    "word": "mofo",
+                    "cen": "----"
+                },
+                {
+                    "word": "mothafuck",
+                    "cen": "---------"
+                },
+                {
+                    "word": "mothafucka",
+                    "cen": "----------"
+                },
+                {
+                    "word": "mothafuckas",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "mothafuckaz",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "mothafucked",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "mothafucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "mothafuckers",
+                    "cen": "------------"
+                },
+                {
+                    "word": "mothafuckin",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "mothafucking",
+                    "cen": "------------"
+                },
+                {
+                    "word": "mothafuckings",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "mothafucks",
+                    "cen": "----------"
+                },
+                {
+                    "word": "mother fucker",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "motherfuck",
+                    "cen": "----------"
+                },
+                {
+                    "word": "motherfucked",
+                    "cen": "------------"
+                },
+                {
+                    "word": "motherfucker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "motherfuckers",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "motherfuckin",
+                    "cen": "------------"
+                },
+                {
+                    "word": "motherfucking",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "motherfuckings",
+                    "cen": "--------------"
+                },
+                {
+                    "word": "motherfuckka",
+                    "cen": "------------"
+                },
+                {
+                    "word": "motherfucks",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "muff",
+                    "cen": "----"
+                },
+                {
+                    "word": "mutha",
+                    "cen": "-----"
+                },
+                {
+                    "word": "muthafecker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "muthafuckker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "muther",
+                    "cen": "------"
+                },
+                {
+                    "word": "mutherfucker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "n1gga",
+                    "cen": "-----"
+                },
+                {
+                    "word": "n1gger",
+                    "cen": "------"
+                },
+                {
+                    "word": "nazi",
+                    "cen": "----"
+                },
+                {
+                    "word": "nigg3r",
+                    "cen": "------"
+                },
+                {
+                    "word": "nigg4h",
+                    "cen": "------"
+                },
+                {
+                    "word": "nigga",
+                    "cen": "-----"
+                },
+                {
+                    "word": "niggah",
+                    "cen": "------"
+                },
+                {
+                    "word": "niggas",
+                    "cen": "------"
+                },
+                {
+                    "word": "niggaz",
+                    "cen": "------"
+                },
+                {
+                    "word": "nigger",
+                    "cen": "------"
+                },
+                {
+                    "word": "niggers",
+                    "cen": "-------"
+                },
+                {
+                    "word": "nob",
+                    "cen": "---"
+                },
+                {
+                    "word": "nob jokey",
+                    "cen": "---------"
+                },
+                {
+                    "word": "nobhead",
+                    "cen": "-------"
+                },
+                {
+                    "word": "nobjocky",
+                    "cen": "--------"
+                },
+                {
+                    "word": "nobjokey",
+                    "cen": "--------"
+                },
+                {
+                    "word": "numbnuts",
+                    "cen": "--------"
+                },
+                {
+                    "word": "nutsack",
+                    "cen": "-------"
+                },
+                {
+                    "word": "orgasim",
+                    "cen": "-------"
+                },
+                {
+                    "word": "orgasims",
+                    "cen": "--------"
+                },
+                {
+                    "word": "orgasm",
+                    "cen": "------"
+                },
+                {
+                    "word": "orgasms",
+                    "cen": "-------"
+                },
+                {
+                    "word": "p0rn",
+                    "cen": "----"
+                },
+                {
+                    "word": "pecker",
+                    "cen": "------"
+                },
+                {
+                    "word": "penis",
+                    "cen": "-----"
+                },
+                {
+                    "word": "penisfucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "phonesex",
+                    "cen": "--------"
+                },
+                {
+                    "word": "phuck",
+                    "cen": "-----"
+                },
+                {
+                    "word": "phuk",
+                    "cen": "----"
+                },
+                {
+                    "word": "phuked",
+                    "cen": "------"
+                },
+                {
+                    "word": "phuking",
+                    "cen": "-------"
+                },
+                {
+                    "word": "phukked",
+                    "cen": "-------"
+                },
+                {
+                    "word": "phukking",
+                    "cen": "--------"
+                },
+                {
+                    "word": "phuks",
+                    "cen": "-----"
+                },
+                {
+                    "word": "phuq",
+                    "cen": "----"
+                },
+                {
+                    "word": "pigfucker",
+                    "cen": "---------"
+                },
+                {
+                    "word": "pimpis",
+                    "cen": "------"
+                },
+                {
+                    "word": "pisser",
+                    "cen": "------"
+                },
+                {
+                    "word": "pissers",
+                    "cen": "-------"
+                },
+                {
+                    "word": "pissflaps",
+                    "cen": "---------"
+                },
+                {
+                    "word": "pissin",
+                    "cen": "------"
+                },
+                {
+                    "word": "pissing",
+                    "cen": "-------"
+                },
+                {
+                    "word": "pissoff",
+                    "cen": "-------"
+                },
+                {
+                    "word": "porn",
+                    "cen": "----"
+                },
+                {
+                    "word": "porno",
+                    "cen": "-----"
+                },
+                {
+                    "word": "pornography",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "pornos",
+                    "cen": "------"
+                },
+                {
+                    "word": "pricks",
+                    "cen": "------"
+                },
+                {
+                    "word": "pube",
+                    "cen": "----"
+                },
+                {
+                    "word": "pusse",
+                    "cen": "-----"
+                },
+                {
+                    "word": "pussi",
+                    "cen": "-----"
+                },
+                {
+                    "word": "pussies",
+                    "cen": "-------"
+                },
+                {
+                    "word": "pussy",
+                    "cen": "-----"
+                },
+                {
+                    "word": "pussys",
+                    "cen": "------"
+                },
+                {
+                    "word": "retard",
+                    "cen": "------"
+                },
+                {
+                    "word": "rimjaw",
+                    "cen": "------"
+                },
+                {
+                    "word": "rimming",
+                    "cen": "-------"
+                },
+                {
+                    "word": "sh!+",
+                    "cen": "----"
+                },
+                {
+                    "word": "sh!t",
+                    "cen": "----"
+                },
+                {
+                    "word": "sh1t",
+                    "cen": "----"
+                },
+                {
+                    "word": "shag",
+                    "cen": "----"
+                },
+                {
+                    "word": "shagger",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shaggin",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shagging",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shemale",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shi+",
+                    "cen": "----"
+                },
+                {
+                    "word": "shitdick",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shite",
+                    "cen": "-----"
+                },
+                {
+                    "word": "shited",
+                    "cen": "------"
+                },
+                {
+                    "word": "shitey",
+                    "cen": "------"
+                },
+                {
+                    "word": "shitfuck",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shitfull",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shithead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shiting",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shitings",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shits",
+                    "cen": "-----"
+                },
+                {
+                    "word": "shitted",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shitter",
+                    "cen": "-------"
+                },
+                {
+                    "word": "shitters",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shitting",
+                    "cen": "--------"
+                },
+                {
+                    "word": "shittings",
+                    "cen": "---------"
+                },
+                {
+                    "word": "shitty",
+                    "cen": "------"
+                },
+                {
+                    "word": "skank",
+                    "cen": "-----"
+                },
+                {
+                    "word": "slut",
+                    "cen": "----"
+                },
+                {
+                    "word": "sluts",
+                    "cen": "-----"
+                },
+                {
+                    "word": "smegma",
+                    "cen": "------"
+                },
+                {
+                    "word": "smut",
+                    "cen": "----"
+                },
+                {
+                    "word": "snatch",
+                    "cen": "------"
+                },
+                {
+                    "word": "son-of-a-bitch",
+                    "cen": "--------------"
+                },
+                {
+                    "word": "spac",
+                    "cen": "----"
+                },
+                {
+                    "word": "spunk",
+                    "cen": "-----"
+                },
+                {
+                    "word": "s_h_i_t",
+                    "cen": "-------"
+                },
+                {
+                    "word": "t1tt1e5",
+                    "cen": "-------"
+                },
+                {
+                    "word": "t1tties",
+                    "cen": "-------"
+                },
+                {
+                    "word": "teets",
+                    "cen": "-----"
+                },
+                {
+                    "word": "teez",
+                    "cen": "----"
+                },
+                {
+                    "word": "testical",
+                    "cen": "--------"
+                },
+                {
+                    "word": "testicle",
+                    "cen": "--------"
+                },
+                {
+                    "word": "tit",
+                    "cen": "---"
+                },
+                {
+                    "word": "titfuck",
+                    "cen": "-------"
+                },
+                {
+                    "word": "tits",
+                    "cen": "----"
+                },
+                {
+                    "word": "titt",
+                    "cen": "----"
+                },
+                {
+                    "word": "tittie5",
+                    "cen": "-------"
+                },
+                {
+                    "word": "tittiefucker",
+                    "cen": "------------"
+                },
+                {
+                    "word": "titties",
+                    "cen": "-------"
+                },
+                {
+                    "word": "tittyfuck",
+                    "cen": "---------"
+                },
+                {
+                    "word": "tittywank",
+                    "cen": "---------"
+                },
+                {
+                    "word": "titwank",
+                    "cen": "-------"
+                },
+                {
+                    "word": "tosser",
+                    "cen": "------"
+                },
+                {
+                    "word": "turd",
+                    "cen": "----"
+                },
+                {
+                    "word": "tw4t",
+                    "cen": "----"
+                },
+                {
+                    "word": "twat",
+                    "cen": "----"
+                },
+                {
+                    "word": "twathead",
+                    "cen": "--------"
+                },
+                {
+                    "word": "twatty",
+                    "cen": "------"
+                },
+                {
+                    "word": "twunt",
+                    "cen": "-----"
+                },
+                {
+                    "word": "twunter",
+                    "cen": "-------"
+                },
+                {
+                    "word": "v14gra",
+                    "cen": "------"
+                },
+                {
+                    "word": "v1gra",
+                    "cen": "-----"
+                },
+                {
+                    "word": "vagina",
+                    "cen": "------"
+                },
+                {
+                    "word": "viagra",
+                    "cen": "------"
+                },
+                {
+                    "word": "vulva",
+                    "cen": "-----"
+                },
+                {
+                    "word": "w00se",
+                    "cen": "-----"
+                },
+                {
+                    "word": "wank",
+                    "cen": "----"
+                },
+                {
+                    "word": "wanker",
+                    "cen": "------"
+                },
+                {
+                    "word": "wanky",
+                    "cen": "-----"
+                },
+                {
+                    "word": "whoar",
+                    "cen": "-----"
+                },
+                {
+                    "word": "whore",
+                    "cen": "-----"
+                },
+                {
+                    "word": "xrated",
+                    "cen": "------"
+                },
+                {
+                    "word": "Arschgeige",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Trant\u00c3\u00bcte",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Spargeltarzan",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "Lustmolch",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Flachwichser",
+                    "cen": "------------"
+                },
+                {
+                    "word": "Pissnelke",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Fickfehler",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Tratschtante",
+                    "cen": "------------"
+                },
+                {
+                    "word": "Stinkstiefel",
+                    "cen": "------------"
+                },
+                {
+                    "word": "Hosenscheisser",
+                    "cen": "--------------"
+                },
+                {
+                    "word": "Schlappschwanz",
+                    "cen": "--------------"
+                },
+                {
+                    "word": "Hackfresse",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Allmannshure",
+                    "cen": "------------"
+                },
+                {
+                    "word": "And\u00c3\u00a4chtler",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "Arschgucker",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "Arschkr\u00c3\u00b6te",
+                    "cen": "-----------"
+                },
+                {
+                    "word": "Arschloch",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Bartputzer",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Dickschei\u00c3\u0178er",
+                    "cen": "-------------"
+                },
+                {
+                    "word": "Donnermaul",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Scheiss",
+                    "cen": "-------"
+                },
+                {
+                    "word": "Scheisse",
+                    "cen": "--------"
+                },
+                {
+                    "word": "Fick",
+                    "cen": "----"
+                },
+                {
+                    "word": "F1ck",
+                    "cen": "----"
+                },
+                {
+                    "word": "fick",
+                    "cen": "----"
+                },
+                {
+                    "word": "f-i-c-k",
+                    "cen": "-------"
+                },
+                {
+                    "word": "Fickdich",
+                    "cen": "--------"
+                },
+                {
+                    "word": "Fickdick",
+                    "cen": "--------"
+                },
+                {
+                    "word": "Huren",
+                    "cen": "-----"
+                },
+                {
+                    "word": "Hurensohn",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Sclampe",
+                    "cen": "-------"
+                },
+                {
+                    "word": "Schlampen",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Schlampenficker",
+                    "cen": "---------------"
+                },
+                {
+                    "word": "Misgeburt",
+                    "cen": "---------"
+                },
+                {
+                    "word": "Missgeburt",
+                    "cen": "----------"
+                },
+                {
+                    "word": "Wichser",
+                    "cen": "-------"
+                },
+                {
+                    "word": "Wicser",
+                    "cen": "------"
+                },
+                {
+                    "word": "Wixer",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fuckity",
+                    "cen": "-------"
+                },
+                {
+                    "word": "bullshit",
+                    "cen": "--------"
+                },
+                {
+                    "word": "$hit",
+                    "cen": "----"
+                },
+                {
+                    "word": "fuckbucket",
+                    "cen": "----------"
+                },
+                {
+                    "word": "felch",
+                    "cen": "-----"
+                },
+                {
+                    "word": "fuckjnf",
+                    "cen": "-------"
+                },
+                {
+                    "word": "fucken",
+                    "cen": "------"
+                }
+            ]
+        }
+    ],
+    "rundata": [
+        {
+            "nonfilter": [
+                1039676978879541298,
+                724454883683467374,
+                903745851908829205,
+                915730774693646346,
+                1065001077990232236,
+                1072518317656526849,
+                1020401722457325638,
+                999356378013519972,
+                1020401832947884032,
+                1082120956849434724,
+                1106225748504748144
+            ],
+            "ADMINEXEMPT": false
+        }
+    ],
+    "leaderboard": [
+        {
+            "id_number": 578041544385495080,
+            "swear_count": 110
+        },
+        {
+            "id_number": 249412307573145610,
+            "swear_count": 39
+        },
+        {
+            "id_number": 400395066411319298,
+            "swear_count": 81
+        },
+        {
+            "id_number": 530477497477890097,
+            "swear_count": 4
+        },
+        {
+            "id_number": 330400299984355330,
+            "swear_count": 5
+        },
+        {
+            "id_number": 158956743752286208,
+            "swear_count": 176
+        },
+        {
+            "id_number": 896615790604877845,
+            "swear_count": 25
+        },
+        {
+            "id_number": 576602743867965460,
+            "swear_count": 7
+        },
+        {
+            "id_number": 695392272413622343,
+            "swear_count": 8
+        },
+        {
+            "id_number": 660501140722548746,
+            "swear_count": 2
+        },
+        {
+            "id_number": 238101142846963713,
+            "swear_count": 6
+        },
+        {
+            "id_number": 488756661620572161,
+            "swear_count": 4
+        },
+        {
+            "id_number": 601931312080748577,
+            "swear_count": 5
+        },
+        {
+            "id_number": 470076709635358720,
+            "swear_count": 1
+        },
+        {
+            "id_number": 330836852577927179,
+            "swear_count": 36
+        },
+        {
+            "id_number": 809935450331676693,
+            "swear_count": 1
+        },
+        {
+            "id_number": 713792226467119127,
+            "swear_count": 5
+        },
+        {
+            "id_number": 948813167285399603,
+            "swear_count": 1
+        },
+        {
+            "id_number": 159985870458322944,
+            "swear_count": 1
+        },
+        {
+            "id_number": 1041942053598265385,
+            "swear_count": 5
+        },
+        {
+            "id_number": 516597754500481054,
+            "swear_count": 11
+        },
+        {
+            "id_number": 162045155308863488,
+            "swear_count": 1
+        },
+        {
+            "id_number": 535659699148816403,
+            "swear_count": 1
+        },
+        {
+            "id_number": 376008540340617216,
+            "swear_count": 2
+        },
+        {
+            "id_number": 729360640921305161,
+            "swear_count": 1
+        },
+        {
+            "id_number": 719324283335082094,
+            "swear_count": 1
+        },
+        {
+            "id_number": 165560741359910912,
+            "swear_count": 1
+        },
+        {
+            "id_number": 161609099811880960,
+            "swear_count": 25
+        },
+        {
+            "id_number": 535977139489472512,
+            "swear_count": 4
+        },
+        {
+            "id_number": 388145457886396416,
+            "swear_count": 1
+        },
+        {
+            "id_number": 389952219723595776,
+            "swear_count": 1
+        },
+        {
+            "id_number": 125695632408182784,
+            "swear_count": 1
+        },
+        {
+            "id_number": 546165341353672715,
+            "swear_count": 1
+        },
+        {
+            "id_number": 612307540860207115,
+            "swear_count": 1
+        },
+        {
+            "id_number": 588747547401650210,
+            "swear_count": 13
+        }
+    ]
+}
